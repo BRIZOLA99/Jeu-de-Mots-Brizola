@@ -22,7 +22,7 @@ const Grid = () => {
   const [grid, setGrid] = useState(generateEmptyGrid()); // Utilisation de la fonction generateEmptyGrid ici
 
   const words = [
-    { id: 1, word: 'REACT', clue: 'Framework JavaScript', x: 0, y: 0, across: true, background: 'lightblue', found: false },
+    { id: 1, word: 'REACTA', clue: 'Framework JavaScript', x: 0, y: 0, across: true, background: 'lightblue', found: false },
     { id: 2, word: 'NATIVE', clue: 'Framework pour les applications mobiles', x: 0, y: 1, across: false, background: 'lightgreen', found: false },
     { id: 3, word: 'CROISE', clue: 'Type de jeu de mots', x: 1, y: 1, across: true, background: 'lightyellow', found: false },
     { id: 4, word: 'GRILLE', clue: 'Structure de jeu de mots', x: 1, y: 2, across: false, background: 'lightpink', found: false },
